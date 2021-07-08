@@ -1,1 +1,2 @@
-# Covid-Visualizer
+# Covid Visualizer
+Covid Visualizer aims to simplify all of your COVID-19 related information into one space for easy visualization, without looking into several sources on the internet. This will not only save time but will also be convinient to use and ease out our tasks by bringing all the information that you need into one space.
