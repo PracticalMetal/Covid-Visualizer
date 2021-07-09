@@ -1,0 +1,11 @@
+CC=clang
+CFLAGS=-g -Wall
+
+BIN=~/Documents/Github/Covid-Visualizer/testing
+
+all: $(BIN)
+
+%: %.cpp
+	$(CC) $(CFLAGS) $< -o $@ -lcurl
+
+
