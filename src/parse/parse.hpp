@@ -2,6 +2,5 @@
 #define __parse__
 
 
-int add(int,int);
 
 #endif

@@ -1,0 +1,9 @@
+CC=g++
+CFLAGS=-g -Wall
+
+BIN=~/Documents/Github/Covid-Visualizer/parse
+
+all: $(BIN)
+
+%: %.cpp
+	$(CC) $(CFLAGS) $< -o $@ -lcurl

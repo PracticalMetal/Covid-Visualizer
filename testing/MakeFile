@@ -1,4 +1,4 @@
-CC=clang
+CC=g++
 CFLAGS=-g -Wall
 
 BIN=~/Documents/Github/Covid-Visualizer/testing
