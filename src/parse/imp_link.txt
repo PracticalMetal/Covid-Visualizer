@@ -1,1 +1,11 @@
 https://stackoverflow.com/questions/834768/options-for-web-scraping-c-version-only
+
+CC=g++
+CFLAGS=-g -Wall
+
+BIN=~/Documents/Github/Covid-Visualizer/testing
+
+all: $(BIN)
+
+%: %.cpp
+    $(CC) $(CFLAGS) $< -o $@ -lcurl

@@ -7,3 +7,4 @@ all: $(BIN)
 
 %: %.cpp
 	$(CC) $(CFLAGS) $< -o $@ -lcurl
+
